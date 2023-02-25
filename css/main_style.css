@@ -2,13 +2,16 @@
 
 
 .main__top_navigationBox {
-    width: auto;
-    height: auto;
     background-color: #eeac22;
     display: flex;
     justify-content: center;
     white-space: nowrap;
 }
+
+.main__top_navigationBox:hover {
+    background-color: #097d97;
+}
+
 
 .main__top_navigation {
     margin-left: 20px;
@@ -31,9 +34,23 @@
     margin-left: 30px;
 }
 
-@media(max-width: 833px) {
+.main__nav_text > li:hover {
+    color:#1dcbf4;
+}
+
+@media(max-width: 1050px) {
     .main__top_navigationBox {
         display: flex;
         justify-content: left;
     }
+}
+
+.main__top_nav_login {
+    display: flex;
+    color: white;
+    list-style: none;
+}
+
+.main__top_nav_login > li {
+    margin-left: 20px;
 }
