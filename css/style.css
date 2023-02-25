@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import "C:/Users/user/Desktop/univ_clone-coding/css/main_style.css";
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
